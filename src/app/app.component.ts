@@ -5,6 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { Page1 } from '../pages/page1/page1';
 import { Page2 } from '../pages/page2/page2';
+import { CameraPage } from '../pages/camera/camera';
 
 
 @Component({
@@ -23,7 +24,8 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Flash Light', component: Page1 },
-      { title: 'Image Picker', component: Page2 }
+      { title: 'Image Picker', component: Page2 },
+      { title: 'Camera', component: CameraPage }
     ];
 
   }

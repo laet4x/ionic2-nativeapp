@@ -8,6 +8,11 @@
 </ion-header>
 
 <ion-content padding>
-  <h3>Ionic Image Picker</h3>
-
+ <div class="feedback-img">
+    <button (click)="pickImage()">Choose Image</button>
+    <br>
+    <div *ngFor="let img of images">
+        <img src="{{img}}">
+    </div>
+ </div>
 </ion-content>
