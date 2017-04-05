@@ -6,6 +6,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { Page1 } from '../pages/page1/page1';
 import { Page2 } from '../pages/page2/page2';
 import { CameraPage } from '../pages/camera/camera';
+import { Angularfire2Page } from '../pages/angularfire2/angularfire2';
 
 
 @Component({
@@ -25,7 +26,8 @@ export class MyApp {
     this.pages = [
       { title: 'Flash Light', component: Page1 },
       { title: 'Image Picker', component: Page2 },
-      { title: 'Camera', component: CameraPage }
+      { title: 'Camera', component: CameraPage },
+      { title: 'AngularFire2', component: Angularfire2Page }
     ];
 
   }
