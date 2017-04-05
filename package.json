@@ -46,8 +46,8 @@
     "cordova-plugin-splashscreen",
     "ionic-plugin-keyboard",
     "cordova-plugin-flashlight",
-    "com.synconset.imagepicker",
-    "cordova-plugin-camera"
+    "cordova-plugin-camera",
+    "com.synconset.imagepicker"
   ],
   "cordovaPlatforms": [],
   "description": "ionic2-app: An Ionic project"
